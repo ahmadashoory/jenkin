@@ -23,6 +23,7 @@ public class RegistrationFormTest extends BaseClass {
 		
 	}
 	
+	
 	@Test(dataProvider ="getTestData")
 	public void registrationFormTest(String fName, String lName, String email, String phone, String pass, String confPass ) throws InterruptedException {
 		
@@ -45,7 +46,7 @@ public class RegistrationFormTest extends BaseClass {
 	@DataProvider()
 	public Object[][] getTestData() {
 		
-		Object[][] data = ExcelUtility.getExcelData("data");
+		Object[][] data = ExcelUtility.getExcelData("info");
 		return data;
 	}
 	
