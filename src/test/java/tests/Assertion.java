@@ -19,7 +19,7 @@ public class Assertion extends DriverUtility {
 
 	SoftAssert softassert = new SoftAssert();
 	SoftAssert softassert2 = new SoftAssert();
-
+// this has added
 	@BeforeTest
 	public void beforeClass() {
 		WebDriverManager.chromedriver().setup();
